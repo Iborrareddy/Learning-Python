@@ -1,0 +1,80 @@
+print('Hello world')
+   (or)=''=""
+print("Hello world")
+
+Output:
+Hello world
+-----------------
+length:
+print(len("Hello"))
+---------------------
+list:
+print("Hello"[0])
+
+---------------------
+Display Input:
+
+a = input("Enter The Number")
+print(f'Hello :{a}')
+
+output: Hello :{input}
+
+a = input("Enter The Number")
+print("Hello :" + a + "All")
+
+Hello : input All
+---------------------
+Adding Two Numbers:
+
+------------------
+Calculate age 
+a = int(input("Enter The Number"))
+days = a*365
+weaks = a*52
+months = a*12
+
+print(f"You completed{days} days, {weaks} weaks, and {months} months")
+
+++++++++++++++++++
+a = int(input("Enter Age"))
+remaing = 90-a
+days = remaing*365
+weaks = remaing*52
+months = remaing*12
+print(f'Nuvu pothau raaa {days} days, {weaks}weaks, {months}months left')
+--------------------
+a = int(input("Enter The Weight:"))
+b = float(input("Enter the length:"))
+
+s = a/b**2
+print(int(s)) 
+
+24 
+
+print(int(8/3))
+------------------
+print(round(8.567)) #rounded Figures
+
+
+----------------
+score = 8
+score += 1 # += -= /= *=
+print(score)
+-----------------
+
+Python Keywords List:
+https://www.w3schools.com/python/python_ref_keywords.asp
+
+Data Types:
+https://www.w3schools.com/python/python_datatypes.asp
+
+TechRaj:
+
+
+
+
+Exercise Completed : Systax to Numners
+https://www.w3schools.com/python/exercise.asp
+
+
+AS
