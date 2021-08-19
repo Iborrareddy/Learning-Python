@@ -1,3 +1,3 @@
 # Learning-Python
 
-This is just fun Learing
+This is just fun
