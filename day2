@@ -1,0 +1,36 @@
+#This is a comment
+"""
+This is a comment
+written in
+more than just one line
+"""
+
+
+Camel Case
+Each word, except the first, starts with a capital letter:
+myVariableName = "John"
+----------------------------
+Pascal Case
+Each word starts with a capital letter:
+MyVariableName = "John"
+--------------------------------
+Snake Case
+Each word is separated by an underscore character:
+my_variable_name = "John"
+=================================
+import random
+randomnum = random.randint(1, 10)
+print(randomnum)
+=======================================
+import random
+randomnum = random.randint(0, 1)
+if randomnum == 0:
+	print("Head")
+else:
+	print("tail")
+=======================================
+
+List = ["Hello", "All", "lol"]
+
+==========================================
+askpython
