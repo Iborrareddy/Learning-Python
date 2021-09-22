@@ -1,0 +1,52 @@
+
+>>> a = 5
+>>> b = 6
+>>> b + a 
+11  
+>>> _ + 10  # _ = previus value( 11 )
+21  
+
+=======================================
+a = ["Hello","All"]
+s = ''.join(a) #join the varbles
+print(s)
+------------------------------------------
+s1 = "BorraMadhan"
+s = list(s1)
+s[1] = "a"
+s[4] = "o"
+m = ''.join(s)
+print(m)
+========================================
+
+========================================
+squares = []
+for x in range(10):
+    squares.append(x**2)
+    print(squares)
+=========================================
+a = input("Enter the number:")
+b = input("Enter the 2 nd number")
+a1 = a[0]
+a2 = b[1]
+c = int(a1)+int(a2)
+print(c)
+
+========================================
+a = int(input("Enter the number:"))
+b = float(input("Enter the 2 nd number:"))
+c = a/(b**2)
+d = round(c, 2)
+print(d)
+=========================================
+def my_function(hello):
+    print(hello +"  Test" )
+my_function("hee ma")
+my_function("Hello all")
+=============================================
+Link = "http://Testkaro.com"
+domain = slice(7,-4)
+print(Link[domain])
+===============================================
+s = "MadhanMohanReddy"
+print(s[::-1])
