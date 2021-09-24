@@ -1,0 +1,154 @@
+
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+======================================================================
+Return the string without any whitespace at the beginning or the end.
+
+
+txt = " Hello World "
+x = 
+txt.strip()
+================================================================================
+
+
+H = {101: "Madhan", 102: "Mohan", 103: "Reddy"}
+print(H[102]) []=Indexing values
+Output:
+Mohan
+
+
+------------------------------------------------
+car ={
+"Brand":"Lamb",
+"Model":"2018",
+"Number":"909090"
+}
+
+car["owner"] ="Madhan" 
+print(car)
+=============================================
+Delete:
+
+>>> H = {101: "Madhan", 102: "Mohan", 103: "Reddy"}
+>>> del(H[103]) 
+>>> H
+{101: 'Madhan', 102: 'Mohan'}
+>>> H.keys()  @keys to dispaly
+dict_keys([101, 102])
+
+
+===================================================
+
+
+
+if statement:
+if
+elif
+elif
+....
+elif
+else
+----------------------------------------------------------------------------
+age = int(input("Enter Your age:"))
+if age==100:
+    print("100 Years")
+elif age>=50:
+    print("Half Century")
+elif age>=0:
+    print("Kid")
+else:
+    print("Sorry Please Enter Correct Details")
+===============================================================================
+Logical operater:
+Not operator: T -> F 
+
+
+temp = int(input("Enter The Temp:"))
+if temp >=0 and temp <=30:
+    print("Wether Is Goood")
+    print("Good To go out side")
+elif temp <0 or temp >30:
+    print("Dont Go out Temp is bad")
+    print("Stay Home Stay safe")
+-------------------------------------------------------------------------------
+Not Operator:
+temp = int(input("Enter The Temp:"))
+if not(temp >=0 and temp <=30):
+    print("Dont Go out Temp is bad")
+    print("Stay Home Stay safe")
+elif not(temp <0 or temp >30):
+    print("Wether Is Goood")
+    print("Good To go out side")
+=====================================================================================
+
+****While Loop******
+
+while 1==1:
+	print("Hello All!")
+
+Output:
+Hello All!
+Hello All!
+Hello All!
+Hello All!
+Continus Printing:
+-------------------------------------
+
+name = ""
+while len(name)==0:
+    name = input("Enter the name:")
+print("Hello",name)
+
+Output:
+Enter the name:
+Enter the name:
+Enter the name:
+Enter the name:
+Enter the name:Hello
+Hello Hello
+
+
+        (or)
+
+name = None
+while not name:
+    name = input("Enter the name:")
+print("Hello",name)
+
+
+Output:
+Enter the name:
+Enter the name:
+Enter the name:
+Enter the name:
+Enter the name:Hello
+Hello Hello
+
+
+===========================================================
+
+For Loop:::::
+
+for index in range(10):
+    print(index)
+
+0
+1
+...
+9
+---------------------------------
+for i in range(10,20,2):
+    print(i)
+
+-----------------------------------------------------
+import time
+for seconds in range(10,0,-1):
+    print(seconds)
+    time.sleep(1)
+print("Happy New Year")
+
+====================================================================
+
+
+Read: Concadunation:
