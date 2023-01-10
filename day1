@@ -10,6 +10,9 @@ name = 'iborrareddy'
 age = 23
 print(f'My name is {name} and my age {age}')
 -------------------------------------
+print("Hello \"World")
+Hello "World
+-------------------------------------
 #Input
 print("Hello " + input("Enter the name:")) 
 
