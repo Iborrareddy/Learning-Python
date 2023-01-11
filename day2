@@ -33,6 +33,37 @@ print(name.index("l"))
 from math import *
 my_num = 95
 #print(str(my_num) + " My favorate number") #/////str(my_num) must be convert
+
+
+# Write a program that adds the digits in a 2 digit number
+#e.g. if the input was 35, then the output should be 3+5
+
+# message = input("Enter the number")
+# result = int(message[0])+int(message[1])
+# print(result)
+
+# PEMDAS: Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)
+
+# import math
+
+# weight = float(input("Enter the weight"))
+# height = float(input("Enter the height"))
+
+# bmi = weight/ pow(height,2)
+# print(int(bmi))
+
+
+# ----------------------------------
+# Days left
+
+# age = int(input("Enter your age:"))
+# left = 90 - age
+# weeks = left * 52
+# months = left * 12
+# days = left * 365
+# print(f'You have {days}, {weeks} weeks, and {months} months left')
+
+# print(type(int("5")/int(2.7)))   float
 print(abs(my_num)) # -5 == print (5) 
 print(pow(3,2))
 print(max(5,3))
