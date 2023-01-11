@@ -4,6 +4,43 @@ This is a comment
 written in
 more than just one line
 """
+#strings
+'''
+print("Hello \n All")
+print("Hello \" All")
+name = "Hello all"
+print(name + "!")
+
+name = "Hello all"
+print(name[::-1])
+name = "Hello all!"
+print(name.lower())
+print(name.upper())
+#true or false
+print(name.isupper()) #False
+print(name.islower()) #False
+print(name.upper().isupper()) #true
+print(name.lower().islower()) #true
+print(name.replace("l","m")) #replace"old","New" 
+print(len(name))
+
+print(name[0])
+print(name.index("l"))
+
+
+#integers
+'''
+from math import *
+my_num = 95
+#print(str(my_num) + " My favorate number") #/////str(my_num) must be convert
+print(abs(my_num)) # -5 == print (5) 
+print(pow(3,2))
+print(max(5,3))
+print(round(5.98))
+print(floor(3.5))
+print(ceil(5.2))
+print(sqrt(36))
+
 
 
 Camel Case
